@@ -93,6 +93,12 @@ header {
     position: relative;
 }
 
+.favoritos {
+    position: absolute;
+    bottom: 194px;
+    right: 11px;
+}
+
 /* Produto 1 */
 .imagem1-produto {
     width: 245px;
@@ -119,12 +125,6 @@ header {
     bottom: 5px;
     left: 11px;
     color: black;
-}
-
-.favorito-1 {
-    position: absolute;
-    bottom: 194px;
-    right: 11px;
 }
 
 /* Produto 2 */
@@ -155,12 +155,6 @@ header {
     color: black;
 }
 
-.favorito-2 {
-    position: absolute;
-    bottom: 194px;
-    right: 11px;
-}
-
 /* Produto 3 */
 .imagem3-produto {
     width: 271px;
@@ -187,12 +181,6 @@ header {
     bottom: 69px;
     left: 11px;
     color: black;
-}
-
-.favorito-3 {
-    position: absolute;
-    bottom: 194px;
-    right: 11px;
 }
 
 /* Produto 4 */
@@ -223,12 +211,6 @@ header {
     color: black;
 }
 
-.favorito-4 {
-    position: absolute;
-    bottom: 194px;
-    right: 11px;
-}
-
 /* Produto 5 */
 .imagem5-produto {
     width: 214px;
@@ -255,12 +237,6 @@ header {
     bottom: 95px;
     left: 11px;
     color: black;
-}
-
-.favorito-5 {
-    position: absolute;
-    bottom: 217px;
-    right: 11px;
 }
 
 /* Produto 6 */
@@ -299,12 +275,6 @@ header {
     bottom: 8px;
     left: 11px;
     color: black;
-}
-
-.favorito-6 {
-    position: absolute;
-    bottom: 221px;
-    right: 11px;
 }
 
 .faixa-desconto-6 {
@@ -363,12 +333,6 @@ header {
     color: black;
 }
 
-.favorito-7 {
-    position: absolute;
-    bottom: 221px;
-    right: 11px;
-}
-
 .faixa-desconto-7 {
     width: 100%;
     background-color: #6CC947;
@@ -413,12 +377,6 @@ header {
     bottom: 64px;    
     left: 11px;
     color: black;
-}
-
-.favorito-8 {
-    position: absolute;
-    bottom: 218px;
-    right: 11px;
 }
 
 .ver-mais {
@@ -592,6 +550,16 @@ footer {
     height: 443px;
 }
 
+.favoritos {
+    position: absolute;
+    bottom: 160px;
+}
+
+.favoritos img {
+    width: 20.38px;
+    height: 20.38px;
+}
+
 /* Produto 1 */
 .imagem1-produto {
     width: 166.46px;
@@ -612,16 +580,6 @@ footer {
     font-size: 20.38px;
     position: absolute;
     bottom: 33px;
-}
-
-.favorito-1 {
-    position: absolute;
-    bottom: 160px;
-}
-
-.favorito-1 img {
-    width: 20.38px;
-    height: 20.38px;
 }
 
 /* Produto 2 */
@@ -646,15 +604,6 @@ footer {
     bottom: 55px;
 }
 
-.favorito-2 {
-    bottom: 158px;
-}
-
-.favorito-2 img {
-    width: 20.38px;
-    height: 20.38px;
-}
-
 /* Produto 3 */
 .imagem3-produto {
     width: 184.13px;
@@ -674,15 +623,6 @@ footer {
     height: 22.42px;
     font-size: 20.38px;
     bottom: 81px;
-}
-
-.favorito-3 {
-    bottom: 157px;
-}
-
-.favorito-3 img {
-    width: 20.38px;
-    height: 20.38px;
 }
 
 /* Produto 4 */
@@ -709,15 +649,6 @@ footer {
     bottom: 26px;
 }
 
-.favorito-4 {
-    bottom: 155px;
-}
-
-.favorito-4 img {
-    width: 20.38px;
-    height: 20.38px;
-}
-
 /* Produto 5 */
 .imagem5-produto {
     width: 145.4px;
@@ -738,15 +669,6 @@ footer {
     font-size: 20.38px;
     position: absolute;
     bottom: 74px;
-}
-
-.favorito-5 {
-    bottom: 155px;
-}
-
-.favorito-5 img {
-    width: 20.38px;
-    height: 20.38px;
 }
 
 /* Produto 6 */
@@ -773,15 +695,6 @@ footer {
     font-size: 20.38px;
     position: absolute;
     bottom: 9px;
-}
-
-.favorito-6 {
-    bottom: 157px;
-}
-
-.favorito-6 img {
-    width: 20.38px;
-    height: 20.38px;
 }
 
 .faixa-desconto-6 {
@@ -825,15 +738,6 @@ footer {
     font-size: 20.38px;
 }
 
-.favorito-7 {
-    bottom: 165px;
-}
-
-.favorito-7 img {
-    width: 20.38px;
-    height: 20.38px;
-}
-
 .faixa-desconto-7 {
     width: 200.43px;
     height: 25.82px;
@@ -863,16 +767,6 @@ footer {
     font-size: 20.38px;
     position: absolute;
     bottom: 60px;
-}
-
-.favorito-8 {
-    position: absolute;    
-    bottom: 165px;
-}
-
-.favorito-8 img {
-    width: 20.38px;
-    height: 20.38px;   
 }
 
 .ver-mais {
@@ -985,6 +879,16 @@ header {
     height: 292.51px;
 }
 
+.favoritos {
+    bottom: 94px;
+    right: 4px;
+}
+
+.favoritos img {
+    width: 14.95px;
+    height: 14.95px;
+}
+
 /* Produto 1 */
 .imagem1-produto {
     width: 122.08px;
@@ -1007,16 +911,6 @@ header {
     font-size: 14.97px;
     left: 7px;
     bottom: 10px;
-}
-
-.favorito-1 {
-    bottom: 94px;
-    right: 4px;
-}
-
-.favorito-1 img {
-    width: 14.95px;
-    height: 14.95px;
 }
 
 /* Produto 2 */
@@ -1043,16 +937,6 @@ header {
     bottom: 25px;
 }
 
-.favorito-2 {
-    bottom: 94px;
-    right: 4px;
-}
-
-.favorito-2 img {
-    width: 14.95px;
-    height: 14.95px;
-}
-
 /* Produto 3 */
 .imagem3-produto {
     width: 135.04px;
@@ -1075,16 +959,6 @@ header {
     font-size: 15.08px;
     left: 7px;
     bottom: 60px;
-}
-
-.favorito-3 {
-    bottom: 112px;
-    right: 4px;
-}
-
-.favorito-3 img {
-    width: 14.95px;
-    height: 14.95px;
 }
 
 /* Produto 4 */
@@ -1110,16 +984,6 @@ header {
     left: 7px;
 }
 
-.favorito-4 {
-    bottom: 114px;
-    right: 4px;
-}
-
-.favorito-4 img {
-    width: 14.95px;
-    height: 14.95px;
-}
-
 /* Produto 5 */
 .imagem5-produto {
     width: 106.67px;
@@ -1142,16 +1006,6 @@ header {
     font-size: 14.95px;
     bottom: 63px;
     left: 7px;
-}
-
-.favorito-5 {
-    bottom: 123px;
-    right: 5px;
-}
-
-.favorito-5 img {
-    width: 14.95px;
-    height: 14.95px;
 }
 
 /* Produto 6 */
@@ -1183,17 +1037,6 @@ header {
     font-size: 15px;
     bottom: 13px;
     left: 7px;
-}
-
-.favorito-6 {
-    bottom: 126px;
-    right: 4px;
-    right: 5px;
-}
-
-.favorito-6 img {
-    width: 15px;
-    height: 15px;
 }
 
 .faixa-desconto-6 {
@@ -1240,16 +1083,6 @@ header {
     left: 7px;
 }
 
-.favorito-7 {
-    bottom: 122px;
-    right: 5px;
-}
-
-.favorito-7 img {
-    width: 15px;
-    height: 15px;
-}
-
 .faixa-desconto-7 {
     width: 147.5px;
     height: 19px;
@@ -1279,16 +1112,6 @@ header {
     height: 22px;
     font-size: 15.05px;
     bottom: 46px;
-}
-
-.favorito-8 {
-    bottom: 121px;
-    right: 5px;
-}
-
-.favorito-8 img {
-    width: 14.95px;
-    height: 14.95px;
 }
 
 .ver-mais {
