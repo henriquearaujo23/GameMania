@@ -331,20 +331,14 @@ header {
     flex-wrap: wrap;
 }
 
-.grid-item {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-}
-
-/* Produto 1 */
-.produto-1 {
+.cards {
     width: 295px;
     height: 587px;
     background-color: white;
     position: relative;
 }
 
+/* Produto 1 */
 .imagem1-produto {
     width: 245px;
     position: absolute;
@@ -379,13 +373,6 @@ header {
 }
 
 /* Produto 2 */
-.produto-2 {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem2-produto {
     width: 215px;
     position: absolute;
@@ -420,13 +407,6 @@ header {
 }
 
 /* Produto 3 */
-.produto-3 {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem3-produto {
     width: 271px;
     position: absolute;
@@ -461,13 +441,6 @@ header {
 }
 
 /* Produto 4 */
-.produto-4 {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem-produto-4 {
     position: absolute;
     top: 60px;
@@ -502,13 +475,6 @@ header {
 }
 
 /* Produto 5 */
-.produto-5 {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem5-produto {
     width: 214px;
     position: absolute;
@@ -612,13 +578,6 @@ header {
 }
 
 /* Produto 7 */
-.produto-7 {    
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem7-produto {
     width: 261px;
     position: absolute;
@@ -681,13 +640,6 @@ header {
 }
 
 /* Produto 8 */
-.produto-8 {    
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem8-produto {
     width: 227px;
     position: absolute;
@@ -1110,7 +1062,7 @@ footer {
 }
 
 /* Produto 1 */
-.produto-1 {
+.cards {
     width: 200.43px;
     height: 443px;
 }
@@ -1147,10 +1099,10 @@ footer {
 }
 
 /* Produto 2 */
-.produto-2 {
+/* .produto-2 {
     width: 200.43px;
     height: 443px;
-}
+} */
 
 .imagem2-produto {
     width: 146.08px;
@@ -1183,10 +1135,10 @@ footer {
 }
 
 /* Produto 3 */
-.produto-3 {
+/* .produto-3 {
     width: 200.43px;
     height: 443px;
-}
+} */
 
 .imagem3-produto {
     width: 184.13px;
@@ -1218,10 +1170,10 @@ footer {
 }
 
 /* Produto 4 */
-.produto-4 {
+/* .produto-4 {
     width: 200px;
     height: 443px;
-}
+} */
 
 .imagem-produto-4 {
     width: 167.82px;
@@ -1256,10 +1208,10 @@ footer {
 }
 
 /* Produto 5 */
-.produto-5 {
+/* .produto-5 {
     width: 200.43px;
     height: 442.99px;
-}
+} */
 
 .imagem5-produto {
     width: 145.4px;
@@ -1292,10 +1244,10 @@ footer {
 }
 
 /* Produto 6 */
-.produto-6 {
+/* .produto-6 {
     width: 200.43px;
     height: 442.99px;
-}
+} */
 
 .imagem6-produto {
     width: 186.85px;
@@ -1341,10 +1293,10 @@ footer {
 }
 
 /* Produto 7 */
-.produto-7 {
+/* .produto-7 {
     width: 200.43px;
     height: 444.35px;
-}
+} */
 
 .imagem7-produto {
     width: 177.33px;
@@ -1396,11 +1348,6 @@ footer {
 }
 
 /* Produto 8 */
-.produto-8 {
-    width: 200.43px;
-    height: 444.35px;
-}
-
 .imagem8-produto {
     width: 154.23px;
     height: 188.88px;
@@ -1719,7 +1666,7 @@ header {
 }
 
 /* Produto 1 */
-.produto-1 {
+.cards {
     width: 147px;
     height: 292.51px;
 }
@@ -1758,11 +1705,6 @@ header {
 }
 
 /* Produto 2 */
-.produto-2 {
-    width: 147px;
-    height: 292.51px;
-}
-
 .imagem2-produto {
     width: 107.14px;
     height: 138.03px;
@@ -1797,11 +1739,6 @@ header {
 }
 
 /* Produto 3 */
-.produto-3 {
-    width: 147px;
-    height: 292.51px;
-}
-
 .imagem3-produto {
     width: 135.04px;
     height: 133.05px;
@@ -1836,11 +1773,6 @@ header {
 }
 
 /* Produto 4 */
-.produto-4 {
-    width: 147px;
-    height: 292.51px;
-}
-
 .imagem-produto-4 {
     width: 123.08px;
     height: 121.09px;
@@ -1874,11 +1806,6 @@ header {
 }
 
 /* Produto 5 */
-.produto-5 {
-    width: 147.05px;
-    height: 325px;
-}
-
 .imagem5-produto {
     width: 106.67px;
     height: 137.08px;
@@ -1913,11 +1840,6 @@ header {
 }
 
 /* Produto 6 */
-.produto-6 {
-    width: 147.5px;
-    height: 326px;
-}
-
 .imagem6-produto {
     width: 137.5px;
     height: 99.5px;
@@ -1969,11 +1891,6 @@ header {
 }
 
 /* Produto 7 */
-.produto-7 {
-    width: 147.5px;
-    height: 327px;
-}
-
 .imagem7-produto {
     width: 130.5px;
     height: 94px;
@@ -2028,11 +1945,6 @@ header {
 }
 
 /* Produto 8 */
-.produto-8 {
-    width: 147px;
-    height: 324.9px;
-}
-
 .imagem8-produto {
     width: 113.12px; 
     height: 138.53px;
