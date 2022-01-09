@@ -80,12 +80,6 @@ header {
     flex-wrap: wrap;
 }
 
-.grid-item {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-}
-
 .cards {
     width: 295px;
     height: 587px;

@@ -1529,6 +1529,11 @@ header {
     padding: 30px 0px;
 }
 
+.cards {
+    width: 147px;
+    height: 292.51px;
+}
+
 .favoritos {
     bottom: 94px;
     right: 4px;
@@ -1540,11 +1545,6 @@ header {
 }
 
 /* Produto 1 */
-.cards {
-    width: 147px;
-    height: 292.51px;
-}
-
 .imagem1-produto {
     width: 122.08px;
     height: 87.2px;
