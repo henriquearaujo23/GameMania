@@ -27,6 +27,7 @@ header {
     left: 246px;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .menu-header a {
@@ -45,7 +46,7 @@ header {
 
 .icones a {}
 
-.menu-hamburguer {
+.barras {
     display: none;
 }
 
@@ -57,6 +58,7 @@ header {
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: 0;
 }
 
 .lancamento {
@@ -819,19 +821,28 @@ footer {
 
 @media screen and (max-width: 1100px) {
 
+.container-grid {
+    width: 90%;
+}
+
 /* Header */
 .menu-header {
     display: none;
     flex-direction: column;
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    align-items: center;
+    width: 217px;
+    height: 295px;
+    background-color: black;
+    left: 65px;
+    top: 37px;
+    padding: 10px 0px;
 }
 
-.menu-hamburguer {
+.menu-header a {
+    color: white;
+}
+
+.barras {
     display: inline-block;
     margin-right: 50px;
 }
@@ -843,6 +854,10 @@ footer {
 .logo-menuhamburguer {    
     display: flex;
     flex-direction: row-reverse;
+}
+
+.menu {
+
 }
 
 /* Banner */
@@ -1351,8 +1366,10 @@ header {
     height: 63px;
 }
 
-.logo-menuhamburguer {
-    flex-direction: row;
+.menu-header {
+    top: 14px;
+    left: 57px;
+    width: 225px;
 }
 
 .logo {

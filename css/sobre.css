@@ -9,10 +9,13 @@
 /* Header */
 header {
     height: 107px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .container-grid {
-    width: 1240px;
+    width: 90%;
+    max-width: 1240px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -45,7 +48,7 @@ header {
 
 .icones a {}
 
-.menu-hamburguer {
+.barras {
     display: none;
 }
 
@@ -178,19 +181,28 @@ footer {
 /* Media queries */
 @media screen and (max-width: 1100px) {
 
+.container-grid {
+    width: 90%;
+}
+
 /* Header */
 .menu-header {
     display: none;
     flex-direction: column;
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    align-items: center;
+    width: 217px;
+    height: 301px;
+    background-color: black;
+    left: 65px;
+    top: 37px;
+    padding: 10px 0px;
 }
-    
-.menu-hamburguer {
+
+.menu-header a {
+    color: white;
+}
+
+.barras {
     display: inline-block;
     margin-right: 50px;
 }

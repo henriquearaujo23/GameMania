@@ -12,7 +12,8 @@ header {
 }
 
 .container-grid {
-    width: 1240px;
+    width: 90%;
+    max-width: 1240px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -45,7 +46,7 @@ header {
 
 .icones a {}
 
-.menu-hamburguer {
+.barras {
     display: none;
 }
 
@@ -222,15 +223,20 @@ footer {
 .menu-header {
     display: none;
     flex-direction: column;
-    width: 200px;
-    height: 250px;
-    background-color: white;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+    align-items: center;
+    width: 217px;
+    height: 295px;
+    background-color: black;
+    left: 65px;
+    top: 37px;
+    padding: 10px 0px;
+}
+
+.menu-header a {
+    color: white;
 }
     
-.menu-hamburguer {
+.barras {
     display: inline-block;
     margin-right: 50px;
 }
