@@ -12,7 +12,8 @@ header {
 }
 
 .container-grid {
-    width: 1240px;
+    width: 90%;
+    max-width: 1240px;
     height: 100%;
     margin: auto;
     display: flex;
@@ -43,8 +44,6 @@ header {
     display: flex;
     justify-content: space-between;
 }
-
-.icones a {}
 
 .barras {
     display: none;
@@ -172,8 +171,6 @@ header {
     position: relative;
 }
 
-.bloco-2 img {}
-
 .bloco-2 p {
     font-family: "Poppins", sans-serif;
     font-size: 20px;
@@ -293,8 +290,6 @@ header {
     justify-content: center;
     position: relative;
 }
-
-.bloco-7 img {}
 
 .bloco-7 p {
     font-family: "Poppins", sans-serif;
@@ -487,13 +482,6 @@ header {
 }
 
 /* Produto 6 */
-.produto-6 {
-    width: 295px;
-    height: 587px;
-    background-color: white;
-    position: relative;
-}
-
 .imagem6-produto {
     width: 275px;
     position: absolute;
@@ -670,8 +658,6 @@ header {
     position: relative;
 }
 
-.nome-newsletter {}
-
 .nome-newsletter h2 {
     font-family: "Poppins", sans-serif;
     font-size: 26px;
@@ -782,8 +768,6 @@ footer {
     text-transform: uppercase;
 }
 
-.faqs p {}
-
 .siga-nos {
     list-style: none;
     font-family: "Poppins",sans-serif;
@@ -821,10 +805,6 @@ footer {
 
 @media screen and (max-width: 1100px) {
 
-.container-grid {
-    width: 90%;
-}
-
 /* Header */
 .menu-header {
     display: none;
@@ -854,10 +834,6 @@ footer {
 .logo-menuhamburguer {    
     display: flex;
     flex-direction: row-reverse;
-}
-
-.menu {
-
 }
 
 /* Banner */
@@ -903,8 +879,6 @@ footer {
     display: flex;
     justify-content: center;
 }
-
-.nome-categorias {}
 
 .blocos {
     flex-wrap: wrap;
@@ -1321,8 +1295,6 @@ footer {
     position: absolute;
     bottom: 162px;
 }
-
-.parte-esquerda a img {}
 
 .nome-game-mania {
     font-size: 25.98px;
@@ -1828,8 +1800,6 @@ header {
     height: 43px;
     text-align: center;
 }
-
-.inscricao {}
 
 .inscricao a {
     font-size: 13px;

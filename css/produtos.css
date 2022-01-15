@@ -46,8 +46,6 @@ header {
     justify-content: space-between;
 }
 
-.icones a {}
-
 .barras {
     display: none;
 }
@@ -467,8 +465,6 @@ footer {
     text-transform: uppercase;
 }
 
-.faqs p {}
-
 .siga-nos {
     list-style: none;
     font-family: "Poppins",sans-serif;
@@ -491,10 +487,6 @@ footer {
 
 /* Media queries */
 @media screen and (max-width: 1100px) {
-
-.container-grid {
-    width: 90%;   
-}
 
 /* Header */
 .menu-header {
@@ -806,8 +798,6 @@ footer {
     position: absolute;
     bottom: 162px;
 }
-
-.parte-esquerda a img {}
 
 .nome-game-mania {
     font-size: 25.98px;
